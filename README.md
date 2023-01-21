@@ -11,3 +11,4 @@ Repositório criado referente aos estudos de Estrutura de dados, neles pude apre
 ###  Filas
 * Filas são estruturas FIFO (First In, First Out), ou seja, o primeiro elemento inserido é o primeiro a ser removido. Exemplo de operações em uma fila: enfileirar (enqueue) e desenfileirar (dequeue).
 ###  Conjuntos
+* um conjunto (ou set) é uma estrutura de dados que armazena elementos sem repetição, não garante ordenação e não garante ordem de inserção. Ele é implementado pela interface java.util.Set, que é implementada por várias classes, como HashSet e TreeSet.
