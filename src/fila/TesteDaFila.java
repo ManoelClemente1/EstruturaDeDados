@@ -1,5 +1,8 @@
 package fila;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class TesteDaFila {
 
     public static void main(String[] args) {
@@ -13,5 +16,10 @@ public class TesteDaFila {
 
         String x1 = fila.remove();
         System.out.println(fila);
+
+        Queue<String> filadoJava = new LinkedList<>();
+
+        filadoJava.add("Maneco");
+        System.out.println(filadoJava);
     }
 }
