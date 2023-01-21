@@ -1,4 +1,4 @@
-package listaligada;
+package lista;
 
 public class TestaListaLigada {
 
@@ -28,5 +28,11 @@ public class TestaListaLigada {
         lista.removeDoComeco();
         System.out.println(lista);
         System.out.println(lista.tamanho());
+
+//        lista.removeDoFim();
+//        System.out.println(lista);
+
+        System.out.println(lista.contem("mauricio"));
+        System.out.println(lista.contem("danilo"));
     }
 }
