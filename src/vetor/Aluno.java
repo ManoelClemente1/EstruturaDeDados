@@ -1,3 +1,5 @@
+package vetor;
+
 public class Aluno {
 
     private String nome;
